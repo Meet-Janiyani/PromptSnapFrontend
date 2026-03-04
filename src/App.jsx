@@ -19,7 +19,7 @@ function App() {
     setResult("");
 
     try {
-      const response = await axios.post("http://localhost:8000/enhance", {
+      const response = await axios.post("https://promptsnapbackend.onrender.com/enhance", {
         prompt: prompt,
         tone: tone,
         mode: mode
